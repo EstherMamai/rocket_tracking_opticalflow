@@ -3,6 +3,7 @@ import cv2
 import time
 import roboflow_model
 import optical_flow_model
+import numpy as np
 
 # Load Roboflow model
 model = roboflow_model.load_roboflow_model()
